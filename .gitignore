@@ -2,13 +2,11 @@
 .agent*
 .claude
 .cursor
-.env
 .env.testing
 .idea
 .mcp.json
 .php_cs.cache
 .phpunit.result.cache
-.vscode
 .vagrant
 *.hot
 .agents/
@@ -45,3 +43,4 @@ skills-lock.json
 /vendor
 yarn.lock
 yarn-error.log
+config.bat

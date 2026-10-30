@@ -2,8 +2,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
+    "dev": "node init && vite",
+    "build": "node init && vite build",
     "install:browsers": "playwright install --with-deps chromium",
     "test:e2e": "playwright test --config=tests/e2e-pw/playwright.config.ts",
     "test:e2e:headed": "playwright test --config=tests/e2e-pw/playwright.config.ts --headed",
